@@ -1,24 +1,32 @@
-Cakeai: Seu Assistente Inteligente de Bolos
-Introdução
+#Bolo IA: Encontre e adapte receitas usando IA generativa do Google
 
-Cakeai é um aplicativo inovador que utiliza inteligência artificial para te ajudar a encontrar a receita de bolo perfeita para qualquer ocasião. Com um banco de dados extenso e repleto de receitas deliciosas, o Cakeai oferece diversas opções para atender às suas necessidades e preferências.
+##Descrição
+Este projeto explora o poder da IA generativa do Google para criar uma experiência culinária interativa e personalizada. Através da combinação de embeddings semânticos e geração de texto avançada, o Bolo IA permite que você encontre e adapte receitas de bolo de forma intuitiva e eficiente.
 
-Funcionalidades
+##Funcionalidades
+Busca semântica: Descreva o bolo que você deseja em linguagem natural. A IA utiliza embeddings para encontrar a receita mais similar na base de dados.
+Adaptação inteligente: Informe suas restrições alimentares ou preferências (sem glúten, vegano, etc.) e a IA ajustará a receita automaticamente.
 
-Busca por Receitas: Encontre a receita ideal para o seu próximo bolo, seja por nome, tipo de bolo ou ingrediente principal.
-Sugestões Personalizadas: Receba sugestões de receitas com base em seus gostos e preferências.
-Interação com o Modelo: Tire dúvidas sobre o processo de preparo, faça perguntas sobre ingredientes específicos e obtenha ajuda personalizada do nosso modelo de inteligência artificial.
-Benefícios
-
-Variedade: Encontre receitas para todos os gostos e ocasiões, desde bolos simples e rápidos até elaborados e sofisticados.
-Praticidade: Economize tempo e esforço na busca pela receita perfeita.
-Precisão: Receitas testadas e aprovadas por especialistas em culinária.
-Facilidade: Interaja com o modelo de forma natural e intuitiva para obter ajuda e informações.
-Como Usar
-
-Acesse o site ou aplicativo Cakeai.
-Digite o nome do bolo, tipo de bolo ou ingrediente principal que você procura na barra de pesquisa.
-Explore as sugestões personalizadas.
-Se tiver alguma dúvida, faça uma pergunta ao modelo de inteligência artificial.
-Siga as instruções da receita passo a passo.
-Desfrute do seu delicioso bolo!
+##Demonstração
+Qual bolo iremos assar hoje? um bolo red velvet
+Use code with caution.
+Após encontrar a receita base, você pode personalizá-la:
+tenho alergia ao glutem, altere os ingredientes nocivos para mim.
+Use code with caution.
+O Bolo IA fornecerá a receita modificada, pronta para ser preparada!
+Como funciona
+Criação de embeddings: Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo models/embedding-001 do Google Generative AI.
+Busca por similaridade: A IA calcula o produto escalar entre o embedding da sua descrição e os embeddings das receitas para identificar a melhor correspondência.
+Adaptação de receita: O modelo gemini-1.0-pro gera texto para substituir ingredientes, garantindo que a receita atenda às suas necessidades.
+Tecnologias
+Google Generative AI: models/embedding-001 para embeddings e gemini-1.0-pro para geração de texto.
+Pandas: Manipulação e análise de dados.
+NumPy: Computação numérica.
+Próximos passos
+Expandir a base de dados com mais receitas.
+Criar uma interface gráfica amigável.
+Implementar suporte para mais restrições e preferências.
+Contribua
+Sinta-se à vontade para contribuir com este projeto! Abra issues, envie pull requests ou compartilhe suas ideias.
+Disclaimer
+As informações geradas por IA são sugestões e devem ser revisadas por um humano antes da utilização.
