@@ -22,7 +22,7 @@ O CAKEIA fornecerá a receita modificada, pronta para ser preparada!
 **Criação de embeddings:** Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo `models/embedding-001` do Google Generative AI.
 Busca por similaridade: A IA calcula o produto escalar entre o embedding da sua descrição e os embeddings das receitas para identificar a melhor correspondência.
 
-## Adaptação de receita: O modelo `gemini-1.0-pro` gera texto para substituir ingredientes, garantindo que a receita atenda às suas necessidades.
+**Adaptação de receita:** O modelo `gemini-1.0-pro` gera texto para substituir ingredientes, garantindo que a receita atenda às suas necessidades.
 
 ## Tecnologias
 **Google Generative AI:** `models/embedding-001` para embeddings e `gemini-1.0-pro` para geração de texto.
