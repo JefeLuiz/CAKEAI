@@ -7,6 +7,7 @@ Este projeto explora o poder da IA generativa do Google para criar uma experiên
 
 ## Funcionalidades
 **Busca semântica:** Descreva o bolo que você deseja em linguagem natural. A IA utiliza embeddings para encontrar a receita mais similar na base de dados.
+
 **Adaptação inteligente:** Informe suas restrições alimentares ou preferências (sem glúten, vegano, etc.) e a IA ajustará a receita automaticamente.
 
 ## Demonstração
