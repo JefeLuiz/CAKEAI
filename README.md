@@ -6,8 +6,8 @@
 Este projeto explora o poder da IA generativa do Google para criar uma experiência culinária interativa e personalizada. Através da combinação de embeddings semânticos e geração de texto avançada, o **CAKEIA** permite que você encontre e adapte receitas de bolo de forma intuitiva e eficiente.
 
 ## Funcionalidades
-Busca semântica: Descreva o bolo que você deseja em linguagem natural. A IA utiliza embeddings para encontrar a receita mais similar na base de dados.
-Adaptação inteligente: Informe suas restrições alimentares ou preferências (sem glúten, vegano, etc.) e a IA ajustará a receita automaticamente.
+**Busca semântica:** Descreva o bolo que você deseja em linguagem natural. A IA utiliza embeddings para encontrar a receita mais similar na base de dados.
+**Adaptação inteligente:** Informe suas restrições alimentares ou preferências (sem glúten, vegano, etc.) e a IA ajustará a receita automaticamente.
 
 ## Demonstração
 ```Qual bolo iremos assar hoje? um bolo red velvet ```
