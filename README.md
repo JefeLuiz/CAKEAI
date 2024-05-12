@@ -14,7 +14,7 @@ Após encontrar a receita base, você pode personalizá-la:
 
 ```tenho alergia ao glutem, altere os ingredientes nocivos para mim.```
 
-O Bolo IA fornecerá a receita modificada, pronta para ser preparada!
+O CAKEIA fornecerá a receita modificada, pronta para ser preparada!
 
 ## Como funciona
 **Criação de embeddings:** Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo `models/embedding-001` do Google Generative AI.
