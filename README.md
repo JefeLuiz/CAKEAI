@@ -1,4 +1,4 @@
-# Bolo IA: Encontre e adapte receitas usando IA generativa do Google
+# CAKEIA: Encontre e adapte receitas usando IA generativa do Google
 
 ## Descrição
 Este projeto explora o poder da IA generativa do Google para criar uma experiência culinária interativa e personalizada. Através da combinação de embeddings semânticos e geração de texto avançada, o Bolo IA permite que você encontre e adapte receitas de bolo de forma intuitiva e eficiente.
