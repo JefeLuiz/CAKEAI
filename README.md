@@ -17,13 +17,13 @@ Após encontrar a receita base, você pode personalizá-la:
 O Bolo IA fornecerá a receita modificada, pronta para ser preparada!
 
 ## Como funciona
-**Criação de embeddings:** Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo `#000000`models/embedding-001`#000000` do Google Generative AI.
+**Criação de embeddings:** Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo `models/embedding-001` do Google Generative AI.
 Busca por similaridade: A IA calcula o produto escalar entre o embedding da sua descrição e os embeddings das receitas para identificar a melhor correspondência.
 
-## Adaptação de receita: O modelo gemini-1.0-pro gera texto para substituir ingredientes, garantindo que a receita atenda às suas necessidades.
+## Adaptação de receita: O modelo `gemini-1.0-pro` gera texto para substituir ingredientes, garantindo que a receita atenda às suas necessidades.
 
 ## Tecnologias
-**Google Generative AI:** models/embedding-001 para embeddings e gemini-1.0-pro para geração de texto.
+**Google Generative AI:** `models/embedding-001` para embeddings e `gemini-1.0-pro` para geração de texto.
 **Pandas:** Manipulação e análise de dados.
 **NumPy:** Computação numérica.
 
