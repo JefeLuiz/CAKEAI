@@ -3,7 +3,7 @@
 ![cakeai](https://github.com/JefeLuiz/CAKEAI/assets/117955318/ddbcfe26-9a56-4f42-a638-df6c508d954d)
 
 ## Descrição
-Este projeto explora o poder da IA generativa do Google para criar uma experiência culinária interativa e personalizada. Através da combinação de embeddings semânticos e geração de texto avançada, o Bolo IA permite que você encontre e adapte receitas de bolo de forma intuitiva e eficiente.
+Este projeto explora o poder da IA generativa do Google para criar uma experiência culinária interativa e personalizada. Através da combinação de embeddings semânticos e geração de texto avançada, o **CAKEIA** permite que você encontre e adapte receitas de bolo de forma intuitiva e eficiente.
 
 ## Funcionalidades
 Busca semântica: Descreva o bolo que você deseja em linguagem natural. A IA utiliza embeddings para encontrar a receita mais similar na base de dados.
