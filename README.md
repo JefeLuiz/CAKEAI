@@ -34,4 +34,5 @@ Implementar suporte para mais restrições e preferências.
 Contribua
 Sinta-se à vontade para contribuir com este projeto! Abra issues, envie pull requests ou compartilhe suas ideias.
 Disclaimer
-As informações geradas por IA são sugestões e devem ser revisadas por um humano antes da utilização.
+> [!CAUTION]
+> As informações geradas por IA são sugestões e devem ser revisadas por um humano antes da utilização.
