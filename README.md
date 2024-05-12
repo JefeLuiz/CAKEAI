@@ -8,15 +8,16 @@ Busca semântica: Descreva o bolo que você deseja em linguagem natural. A IA ut
 Adaptação inteligente: Informe suas restrições alimentares ou preferências (sem glúten, vegano, etc.) e a IA ajustará a receita automaticamente.
 
 ## Demonstração
-``` Qual bolo iremos assar hoje? um bolo red velvet ```
+```Qual bolo iremos assar hoje? um bolo red velvet ```
 
 Após encontrar a receita base, você pode personalizá-la:
-tenho alergia ao glutem, altere os ingredientes nocivos para mim.
+
+```tenho alergia ao glutem, altere os ingredientes nocivos para mim.```
 
 O Bolo IA fornecerá a receita modificada, pronta para ser preparada!
 
 ## Como funciona
-Criação de embeddings: Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo models/embedding-001 do Google Generative AI.
+**Criação de embeddings:** Embeddings (representações matemáticas de texto) são geradas para cada receita utilizando o modelo `#000000`models/embedding-001`#000000` do Google Generative AI.
 Busca por similaridade: A IA calcula o produto escalar entre o embedding da sua descrição e os embeddings das receitas para identificar a melhor correspondência.
 
 ## Adaptação de receita: O modelo gemini-1.0-pro gera texto para substituir ingredientes, garantindo que a receita atenda às suas necessidades.
