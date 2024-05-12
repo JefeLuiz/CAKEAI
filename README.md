@@ -27,12 +27,14 @@ Busca por similaridade: A IA calcula o produto escalar entre o embedding da sua 
 **Pandas:** Manipulação e análise de dados.
 **NumPy:** Computação numérica.
 
-## Próximos passos
-Expandir a base de dados com mais receitas.
-Criar uma interface gráfica amigável.
-Implementar suporte para mais restrições e preferências.
-Contribua
+> [!IMPORTANT]
+> ## Próximos passos
+> Expandir a base de dados com mais receitas.
+> Criar uma interface gráfica amigável.
+> Implementar suporte para mais restrições e preferências.
+> Contribua
+
 Sinta-se à vontade para contribuir com este projeto! Abra issues, envie pull requests ou compartilhe suas ideias.
-Disclaimer
+
 > [!CAUTION]
 > As informações geradas por IA são sugestões e devem ser revisadas por um humano antes da utilização.
